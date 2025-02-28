@@ -1,0 +1,68 @@
+[
+    {
+      "keyword": "Feature",
+      "name": "API scenarios",
+      "line": 1,
+      "id": "api-scenarios",
+      "tags": [],
+      "uri": "api.feature",
+      "elements": [
+        {
+          "id": "api-scenarios;create-user",
+          "keyword": "Scenario",
+          "line": 3,
+          "name": "create user",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 4,
+              "name": "I make a POST to create user with body '{\"name\": \"Bingo\", \"job\": \"team lead\"}'",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 5,
+              "name": "user is created successfully",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ]
+        },
+        {
+          "id": "api-scenarios;update-user",
+          "keyword": "Scenario",
+          "line": 7,
+          "name": "update user",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 8,
+              "name": "I update user with id 2 with the following body '{\"name\": \"Angel\", \"job\": \"assistant teacher\"}'",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 9,
+              "name": "user is updated successfully",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]

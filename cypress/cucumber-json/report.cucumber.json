@@ -1,0 +1,223 @@
+[
+    {
+      "keyword": "Feature",
+      "name": "Shopping scenarios",
+      "line": 1,
+      "id": "shopping-scenarios",
+      "tags": [],
+      "uri": "shopping.feature",
+      "elements": [
+        {
+          "id": "shopping-scenarios;login-as-user-order-and-checkout",
+          "keyword": "Scenario",
+          "line": 17,
+          "name": "Login as user order and checkout",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I am logged as a \"standard_user\"",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [
+                {
+                  "rows": [
+                    {
+                      "cells": [
+                        "item"
+                      ]
+                    },
+                    {
+                      "cells": [
+                        "Sauce Labs Backpack"
+                      ]
+                    },
+                    {
+                      "cells": [
+                        "Sauce Labs Bike Light"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "keyword": "When ",
+              "line": 5,
+              "name": "I add the following items to my cart",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 9,
+              "name": "there should be 2 items in my cart",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 10,
+              "name": "I proceed to checkout",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 11,
+              "name": "I provide my contact information",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 12,
+              "name": "I proceed to finish my order",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "I should complete my order sucessfully",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-scenarios;login-as-user-order-and-checkout",
+          "keyword": "Scenario",
+          "line": 18,
+          "name": "Login as user order and checkout",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I am logged as a \"visual_user\"",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [
+                {
+                  "rows": [
+                    {
+                      "cells": [
+                        "item"
+                      ]
+                    },
+                    {
+                      "cells": [
+                        "Sauce Labs Backpack"
+                      ]
+                    },
+                    {
+                      "cells": [
+                        "Sauce Labs Bike Light"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "keyword": "When ",
+              "line": 5,
+              "name": "I add the following items to my cart",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 9,
+              "name": "there should be 2 items in my cart",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 10,
+              "name": "I proceed to checkout",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 11,
+              "name": "I provide my contact information",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 12,
+              "name": "I proceed to finish my order",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "I should complete my order sucessfully",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shopping-scenarios;login-as-new-sign-up-user-with-valid-data",
+          "keyword": "Scenario",
+          "line": 21,
+          "name": "Login as new sign up user with valid data",
+          "tags": [
+            {
+              "name": "@test",
+              "line": 20
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 22,
+              "name": "I am logged as a \"standard_user\"",
+              "result": {
+                "status": "passed",
+                "duration": 4314000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
