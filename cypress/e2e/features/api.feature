@@ -8,3 +8,7 @@ Feature: API scenarios
   Scenario: update user
     When I update user with id 2 with the following body '{"name": "Angel", "job": "assistant teacher"}'
     Then user is updated successfully
+
+    Scenario: delete user
+    When I delete user with id 2 with the following body '{"name": "Angel", "job": "assistant teacher"}'
+    Then user is deleted successfully

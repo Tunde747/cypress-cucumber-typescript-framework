@@ -17,9 +17,7 @@ const setupNodeEvents = async (on, config) => {
 }
 
 export default defineConfig({
-  env: {
-    baseUrl: "http://www.saucedemo.com",
-  },
+ 
   e2e: {
     specPattern: "cypress/e2e/**/*.feature",
     supportFile: "cypress/support/e2e.ts",
